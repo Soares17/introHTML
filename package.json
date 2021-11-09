@@ -1,0 +1,26 @@
+{
+  "name": "introhtml",
+  "version": "1.0.0",
+  "description": "Primeiro WebServer",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soares17/introHTML.git"
+  },
+  "author": "Soares17",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Soares17/introHTML/issues"
+  },
+  "homepage": "https://github.com/Soares17/introHTML#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
