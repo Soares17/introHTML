@@ -8,33 +8,98 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
     <title>Teste Bootstrap</title>
+
 </head>
 <body>
 
-    <div class="container-fluid p-5 my_bg text-white text-center">
-        <h1>DAVID ÉS UM TONTO</h1>
-        <p>Resize this responsive page to see the effect!</p> 
-      </div>
-        
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-sm-4">
-            <h3>Column 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Column 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Column 3</h3>        
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
+  <nav class="navbar navbar-expand-lg navbar-dark my_bg-nav">
+    <div class="container-fluid">
+        <div class="d-flex flex-grow-1">
+            <span class="w-100 d-lg-none d-block">
+                <!-- hidden spacer to center brand on mobile --></span>
+            <a class="navbar-brand d-none d-lg-inline-block" href="#"> Visita São Miguel </a>
+            <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+                <img src="img/png-transparent-logo-graphic-design-logo-v-logo-monochrome-black.png" width="45px">
+            </a>
+            <div class="w-100 text-right">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
         </div>
-      </div>
-    
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+            <ul class="navbar-nav ms-auto flex-nowrap">
+                <li class="nav-item">
+                    <a href="#" class="nav-link m-2 menu-item nav-active"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link m-2 menu-item">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link m-2 menu-item">Visita/Explora</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link m-2 menu-item">Atividades</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link m-2 menu-item">Alojamentos</a>
+              </li>
+                <li class="nav-item dropdown" style="margin-top: 7px;">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><img src="img/60-602450_profile-clipart-profile-icon-round-profile-pic-png.png" width="25px"></a>
+                    <div class="dropdown-menu dropdown-menu-end">
+                      <ul>
+                      <li><a class="dropdown-item" href="#">Iniciar Sessão</a></li>
+                      <li><a class="dropdown-item" href="#">Registar-se</a></li>
+                      </ul>
+                    </div>
+              </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+  <div class="container-fluid2 p-5 my_bg text-white text-center">
+    <h1>Conheça Tudo Sobre São Miguel</h1>
+    <p>Uma Ilha Cheia de Surpresas</p> 
+    <button type="button" class="btn btn-success btn-lg">Saiba Mais</button>
+  </div>
+
+
+
+    <div class="footer-dark">
+      <footer >
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-6 col-md-3 item">
+                      <h3>Serviços</h3>
+                      <ul>
+                          <li><a href="#">Web design</a></li>
+                          <li><a href="#">Development</a></li>
+                          <li><a href="#">Hosting</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-3 item">
+                      <h3>Sobre</h3>
+                      <ul>
+                          <li><a href="#">Company</a></li>
+                          <li><a href="#">Team</a></li>
+                          <li><a href="#">Careers</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-6 item text">
+                      <h3>Visita São Miguel</h3>
+                      <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                  </div>
+                  <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+              </div>
+              <p class="copyright">Visita São Miguel © 2021</p>
+          </div>
+        </footer>
+  </div>
+
+
+  
+
 </body>
+
 </html>
