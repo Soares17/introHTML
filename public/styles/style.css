@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .my_bg{
     background-color: transparent !important;
 }
@@ -13,15 +14,33 @@
 }
 body{
     background-image: url(../img/looking-down-at-lagoa-do-fogo-on-the-island-of-sao-miguel-azores-wallpaper-1920x1080-wallpaper.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 400px rgba(0,0,0,0.9) inset;
 }
 
 .my_bg-nav{
     background-color: #282d32
 }
+
 .container-fluid2{
     position: relative;
     top: 270px;
 }
+
+.nav-item {
+  padding-left: 15px;
+}
+
+
+.btn-saibamais{
+  color: white; 
+  background-color:#282d32;
+}
+
 
 .footer-dark {
     width: 100%;
@@ -60,7 +79,7 @@ body{
   
   .footer-dark .copyright {
     text-align:center;
-    padding-top:24px;
+    padding-top:0px;
     opacity:0.3;
     font-size:13px;
     margin-bottom:0;
